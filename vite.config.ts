@@ -11,4 +11,5 @@ export default defineConfig({
   }),
   vuePixi()
 ],
+base: '/vue3-pixi-components-demo'
 })
