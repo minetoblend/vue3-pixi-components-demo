@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useRoute, useRouter } from "vue-router";
+import { useRoute } from "vue-router";
 import Ground from "./components/Ground.vue";
 import ScaleMaintianingContainer from "./components/ScaleMaintianingContainer.vue";
 import SkyBackground from "./components/SkyBackground.vue";
@@ -7,11 +7,8 @@ import { computed, ref } from "vue";
 import { Graphics } from "pixi.js";
 
 const route = useRoute();
-const router = useRouter();
 
 const isGameScreen = computed(() => route.name === "game");
-
-router.push('/game')
 
 const mask = ref<Graphics>();
 
