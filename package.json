@@ -1,0 +1,25 @@
+{
+  "name": "vue-flappy-bird",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@pixi-essentials/gradients": "^1.0.1",
+    "@vueuse/core": "^10.1.2",
+    "pixi.js": "^7.2.4",
+    "vue": "^3.2.47",
+    "vue-router": "4",
+    "vue3-pixi-components": "^1.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vue-tsc": "^1.4.2"
+  }
+}
