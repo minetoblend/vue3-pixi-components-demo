@@ -77,7 +77,7 @@ onBeforeRouteLeave(async (to, from, next) => {
     event-mode="static"
     :scale="1.35"
     :alpha="1 - leaveProgress"
-    @mousedown="$router.replace('/game')"
+    @pointerdown="$router.replace('/game')"
   >
     <tiling-sprite
       :texture="messagesTexture"

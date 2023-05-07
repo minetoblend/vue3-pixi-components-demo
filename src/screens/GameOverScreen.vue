@@ -90,7 +90,7 @@ const score = parseInt(route.query.score as string);
     event-mode="static"
     :scale="1.35"
     :alpha="Math.min(1 - leaveProgress, entryProgress)"
-    @mousedown="$router.replace('/game')"
+    @pointerdown="$router.replace('/game')"
   >
     <sprite
       :texture="texture"

@@ -1,0 +1,19 @@
+// vite.config.ts
+import { defineConfig } from "file:///C:/Users/minet/dev/vue-flappy-bird/node_modules/vite/dist/node/index.js";
+import vue from "file:///C:/Users/minet/dev/vue-flappy-bird/node_modules/@vitejs/plugin-vue/dist/index.mjs";
+import { isCustomElement, vuePixi } from "file:///C:/Users/minet/dev/vue-flappy-bird/node_modules/vue3-pixi-components/lib/vite.es.js";
+var vite_config_default = defineConfig({
+  plugins: [
+    vue({
+      template: {
+        compilerOptions: { isCustomElement }
+      }
+    }),
+    vuePixi()
+  ],
+  base: "/vue3-pixi-components-demo"
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxtaW5ldFxcXFxkZXZcXFxcdnVlLWZsYXBweS1iaXJkXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxtaW5ldFxcXFxkZXZcXFxcdnVlLWZsYXBweS1iaXJkXFxcXHZpdGUuY29uZmlnLnRzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9DOi9Vc2Vycy9taW5ldC9kZXYvdnVlLWZsYXBweS1iaXJkL3ZpdGUuY29uZmlnLnRzXCI7aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSdcbmltcG9ydCB2dWUgZnJvbSAnQHZpdGVqcy9wbHVnaW4tdnVlJ1xuaW1wb3J0IHsgaXNDdXN0b21FbGVtZW50LCB2dWVQaXhpIH0gZnJvbSAndnVlMy1waXhpLWNvbXBvbmVudHMvdml0ZSdcblxuLy8gaHR0cHM6Ly92aXRlanMuZGV2L2NvbmZpZy9cbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XG4gIHBsdWdpbnM6IFt2dWUoe1xuICAgIHRlbXBsYXRlOiB7XG4gICAgICBjb21waWxlck9wdGlvbnM6IHsgaXNDdXN0b21FbGVtZW50IH1cbiAgICB9XG4gIH0pLFxuICB2dWVQaXhpKClcbl0sXG5iYXNlOiAnL3Z1ZTMtcGl4aS1jb21wb25lbnRzLWRlbW8nXG59KVxuIl0sCiAgIm1hcHBpbmdzIjogIjtBQUFrUyxTQUFTLG9CQUFvQjtBQUMvVCxPQUFPLFNBQVM7QUFDaEIsU0FBUyxpQkFBaUIsZUFBZTtBQUd6QyxJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUMxQixTQUFTO0FBQUEsSUFBQyxJQUFJO0FBQUEsTUFDWixVQUFVO0FBQUEsUUFDUixpQkFBaUIsRUFBRSxnQkFBZ0I7QUFBQSxNQUNyQztBQUFBLElBQ0YsQ0FBQztBQUFBLElBQ0QsUUFBUTtBQUFBLEVBQ1Y7QUFBQSxFQUNBLE1BQU07QUFDTixDQUFDOyIsCiAgIm5hbWVzIjogW10KfQo=
